@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import InfiniteScroll from "./Components/infiniteScroll";
+import Navigator from "./Navigation"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <InfiniteScroll />
+        <Navigator />
       </header>
     </div>
   );
